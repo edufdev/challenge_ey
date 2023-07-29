@@ -1,0 +1,51 @@
+/* LayoutAdmin.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    padding: 16px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu li {
+    margin-bottom: 0;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+  }
+  

@@ -1,0 +1,42 @@
+/* Testimonios.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .title {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .subtitle {
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Estilos para el botón "Danos tu Comentario" */
+  .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+    font-family: 'Roboto', sans-serif;
+  }
+  

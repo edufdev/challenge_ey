@@ -1,0 +1,86 @@
+/* Header.module.css */
+.header {
+    background-color: #007bff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbarNav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navItem {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin: 0 15px;
+  }
+  
+  /* Estilos para enlaces */
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+  }
+  
+  .nav-link:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para enlace activo */
+  .active {
+    font-weight: bold;
+  }
+  
+  /* Alineación de opciones al extremo derecho */
+  .rightLinksContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 1070px;
+  }
+  
+  /* Estilo para el contenedor principal del menú */
+  .menuContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Para separar los dos contenedores */
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Modificamos el contenedor principal para que los elementos del menú se apilen verticalmente */
+    .menuContainer {
+      flex-direction: column;
+    }
+  
+    /* Modificamos el margen izquierdo de las opciones al extremo derecho para separarlas de las del extremo izquierdo */
+    .rightLinksContainer {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    /* Modificamos el margen entre las opciones del extremo izquierdo para separarlas en pantallas pequeñas */
+    .navbarNav {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    /* Ajustamos la alineación de los contenedores en pantallas pequeñas */
+    .navbarNav,
+    .rightLinksContainer {
+      width: 100%; /* Ocupar todo el ancho disponible */
+      justify-content: center; /* Centrar los elementos */
+    }
+  }
+  

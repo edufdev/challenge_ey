@@ -1,0 +1,89 @@
+/* LoginComponent.module.css */
+
+/* Estilos para el formulario de inicio de sesión */
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+  
+.formGroup {
+  margin-bottom: 20px;
+}
+  
+.label {
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+}
+  
+.input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.togglePasswordButton span {
+  font-size: 14px;
+}
+  
+.button {
+  padding: 14px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Roboto', sans-serif;
+}
+  
+.button:hover {
+  background-color: #0056b3;
+  font-family: 'Roboto', sans-serif;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+
+.successMessage {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.welcomeMessage {
+  color: #00bfff; /* Puedes cambiar este color a cualquier tono de verde o celeste que desees */
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el enlace "Eres nuevo, regístrate" */
+.registerLinkContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.registerLink {
+  color: #ff4500; /* Puedes cambiar este color a cualquier otro tono que desees */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.registerLink:hover {
+  color: #ff8c00; /* Puedes cambiar este color a un tono más claro si deseas un efecto de hover */
+}

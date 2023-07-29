@@ -1,0 +1,197 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
+  color: #007bff;
+}
+
+.description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+.subDescription {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+.secondBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Alinear a la derecha */
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+.secondBlock .title {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
+  color: #007bff;
+}
+
+.secondBlock .description {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+.services {
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.servicesTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #007bff;
+}
+
+.servicesDescription {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.serviceCard {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.serviceCard h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.cta {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.ctaTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ctaButton:hover {
+  background-color: #0056b3;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.testimonialsTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #007bff;
+}
+
+.testimonials {
+  margin-bottom: 40px;
+  display: flex; /* Utilizamos flexbox para alinear los cuadros en una fila */
+  justify-content: center; /* Centramos los cuadros horizontalmente */
+  flex-wrap: wrap; /* Permitimos que los cuadros se envuelvan en una segunda línea si el espacio es insuficiente */
+  font-family: 'Roboto', sans-serif;
+}
+
+.testimonialCard {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 45%; /* Ajustamos el tamaño para ocupar aproximadamente la mitad del ancho disponible */
+  margin: 10px; /* Añadimos un pequeño margen entre los cuadros */
+  font-family: 'Roboto', sans-serif;
+}
+
+.testimonialText {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+.testimonialAuthor {
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .testimonialCard {
+    width: 95%; /* Ajustamos el tamaño para que ocupe casi todo el ancho disponible en pantallas más pequeñas */
+    font-family: 'Roboto', sans-serif;
+  }
+}

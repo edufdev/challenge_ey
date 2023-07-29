@@ -1,0 +1,89 @@
+/* SummaryCard.module.css */
+
+.summaryCardContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.summaryCard {
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  margin: 10px 20px 10px 0; /* Agregamos un margen a la derecha para mover las cartas hacia la izquierda */
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.summaryCard h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.summaryItem {
+  text-align: center;
+}
+
+.summaryItem h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+.summaryItem p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.summaryItemtext p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Estilos para el contenedor de gráficas */
+.graphContainer {
+  flex: 1;
+  max-width: 1155px; /* Aumentamos el ancho máximo del contenedor de gráficas */
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.graphContainer h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/* Agrega estilos adicionales para tus componentes de gráficas si es necesario */
+  /* Estilos para el botón "Danos tu Comentario" */
+  .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+    font-family: 'Roboto', sans-serif;
+  }

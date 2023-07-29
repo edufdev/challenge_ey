@@ -1,0 +1,57 @@
+/* configuracionadmin.module.css */
+
+.container {
+    max-width: 600px;
+    margin: 40px auto 0; /* Agregar margen superior para separarlo del encabezado */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    color: #007bff;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .section h1 {
+    text-align: center;
+  }
+  
+  .section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .label-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinear los elementos al principio del contenedor */
+    margin-bottom: 10px; /* Agregar un margen inferior para separar las secciones */
+  }
+  
+  .label {
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 100%; /* Hacer que la caja de texto ocupe todo el ancho disponible */
+    padding: 8px; /* Agregar un padding para un aspecto más limpio */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

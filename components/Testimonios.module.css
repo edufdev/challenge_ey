@@ -1,0 +1,42 @@
+/* Testimonios.module.css */
+.serviceCardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .serviceCard {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.2s ease;
+  }
+  
+  .serviceCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .nombre {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .testimonio {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    color: #555; /* Cambiar el color del subtitulo a gris */
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .serviceCardContainer {
+      grid-template-columns: 1fr;
+    }
+  }
+  
